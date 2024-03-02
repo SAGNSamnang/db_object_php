@@ -1,4 +1,11 @@
 <?php
+
+  // Database configuration
+  define("SERVER_NAME", "127.0.0.1");
+  define("USER_NAME", "root");
+  define("PASSWORD", "");
+  define("DATABASE_NAME", "product_shop_db");
+
   // Connect to database
   function dbConn() {
     // Constant variable not $ sign
